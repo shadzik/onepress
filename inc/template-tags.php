@@ -1193,7 +1193,7 @@ if ( ! function_exists( 'onepress_get_social_profiles' ) ) {
 
 		foreach ( (array) $array as $s ) {
 			if ( $s['icon'] != '' ) {
-				$html .= '<a target="_blank" href="' . $s['link'] . '" title="' . esc_attr( $s['network'] ) . '"><i class="fa ' . esc_attr( $s['icon'] ) . '"></i></a>';
+				$html .= '<a target="_blank" href="' . $s['link'] . '" title="' . esc_attr( $s['network'] ) . '"><i class="' . esc_attr( $s['icon'] ) . '"></i></a>';
 			}
 		}
 

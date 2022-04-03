@@ -337,7 +337,7 @@ class Onepress_Customize_Repeatable_Control extends WP_Customize_Control {
 
 										#>
 										<div class="icon-wrapper">
-											<i class="fa {{ icon_class }}"></i>
+											<i class="fab {{ icon_class }}"></i>
 											<input data-live-id="{{ field.id }}" type="hidden" value="{{ field.value }}" data-repeat-name="_items[__i__][{{ field.id }}]" class="">
 										</div>
 										<a href="#" class="remove-icon"><?php esc_html_e( 'Remove', 'onepress' ); ?></a>
